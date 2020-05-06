@@ -1,0 +1,14 @@
+<div class="btn-group">
+  <button type="button" class="btn btn-success">{{ site.languageNames[site.lang] }}</button>
+  <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+  </button>
+    <div class="dropdown-menu">
+      {% for lang in site.languages %}
+        {% if lang == "en" %}
+          <a class="dropdown-item" href="{{ page.url }}">{{ site.languageNames[lang] }}</a>
+        {% else %}
+          <a class="dropdown-item" href="/{{ lang }}{{ page.url }}">{{ site.languageNames[lang] }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,23 @@
+---
+site:
+  title: Peniel Vargas - Portafolio
+  description: Página web personal de portafolio
+  keywords: >
+    página web personal, portafolio, digital portafolio, resumé, CV
+error:
+  type: "Página No Encontrada"
+  title: "Página no encontrada :("
+  message: "La página solicitada no pudo ser encontrada."
+about:
+  title: Acerda De
+post:
+  published: Publicado
+footnote: "Copyright (c) Página Personal 2020."
+
+profile:
+  name: Peniel Vargas
+  title: Estudiante Gradudado de Ciencias de Computadora - Traductor Japónes de OSS
+  jobPref: Buscando oportunidades de tiempo completo en Japón.
+  techPref: "Intereses: Linux, Desarrollo de Software, AI, Seguridad de Computadoras"
+  username: vargaspeniel
+  location: Puerto Rico, Estados Unidos

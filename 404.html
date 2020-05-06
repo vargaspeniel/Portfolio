@@ -1,0 +1,26 @@
+---
+layout: default
+permalink: /404.html
+---
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h2 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>{% translate error.type %}</h1>
+
+  <p><strong>{% translate error.title %}</strong></p>
+  <p>{% translate error.message %}</p>
+</div>
+
+<!-- {% translate_file 404.md %} -->

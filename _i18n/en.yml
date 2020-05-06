@@ -1,0 +1,23 @@
+---
+site:
+  title: Peniel Vargas - Portfolio
+  description: Personal portfolio website
+  keywords: >
+    personal website, portfolio, digital portfolio, resume, CV
+error:
+  type: "Page Not Found"
+  title: "Page not found :("
+  message: "The requested page could not be found."
+about:
+  title: About
+post:
+  published: Published
+footnote: "Copyright (c) Personal Website 2020."
+
+profile:
+  name: Peniel Vargas
+  title: Computer Science Graduate - OSS Japanese Translator
+  jobPref: Looking for full time opportunities in Japan.
+  techPref: "Interests: Linux, Software Development, AI, Computer Security"
+  username: vargaspeniel
+  location: Puerto Rico, United States

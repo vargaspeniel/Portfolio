@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{% translate site.title %}</title>
+    <meta name="description" content="{% translate site.description %}" />
+    <meta property="og:title" content="{% translate site.title %}" />
+    <meta property="og:image" content="{{ user.avatar_url }}" />
+    <meta property="og:description" content="{% translate site.description %}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="{{ "/vendor/bootstrap/css/bootstrap.min.css" | prepend: site.baseurl_root }}">
+    <!-- Custom CSS styles -->
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl_root }}">
+  </head>
+  <body>
+    <div class="d-md-flex bg-secondary" style="min-height: 100vh;">
+      <div class="flex-self-stretch bg-dark text-white p-3 col-md-5 col-lg-4 col-xl-3 px-3 px-md-6 px-lg-7 py-6">
+        <img src="{{ "/assets/img/kitsune.png" | prepend: site.baseurl_root }}" class="rounded mb-3" style="max-width: 150px;">
+        <h2 class="text-white mb-2 lh-condensed">{% translate profile.name %}</h2>
+        <p class="mb-3 text-white">
+          {% translate profile.title %}
+          <br><br>
+          {% translate profile.jobPref %}<br>
+          {% translate profile.techPref %}
+          <br><br>
+          {% translate profile.location %}
+        </p>
+      </div>
+
+      <div class="container-fluid p-3 bg-secondary text-white">
+        <!-- {% include navigation.html %} -->
+        {% include settings.html %}
+        {{ content }}
+      </div>
+    </div>
+
+    <!-- <div class="container-fluid p-3 bg-dark text-white">
+      {% include navigation.html %}
+      {{ content }}
+    </div> -->
+    {% include footer.html %}
+  </body>
+</html>

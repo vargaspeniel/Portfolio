@@ -1,0 +1,23 @@
+---
+site:
+  title: バルガス・ペニエル - ポートフォリオ
+  description: 個人的のポートフォリオ・ウェブサイト
+  keywords: >
+    個人的のウェブサイト、 ポートフォリオ、 電子ポートフォリオ、 履歴書、 CV
+error:
+  type: "お探しのページが見つかりません"
+  title: "お探しのページが見つかりません :("
+  message: "お客様がお探しのページが見つかりませんでした。"
+about:
+  title: このウェブサイトについて
+post:
+  published: 投稿済み
+footnote: "Copyright (c) 個人的のウェブサイト 2020."
+
+profile:
+  name: バルガス・ペニエル
+  title: 計算機科学の卒業生・OSS 日本語の翻訳者
+  jobPref: 日本での求人を探しています。
+  techPref: "興味： Linux、 ソフトウェア開発、 AI、 コンピューター・セキュリティ"
+  username: vargaspeniel
+  location: プエルトリコ、 米国
